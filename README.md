@@ -11,7 +11,7 @@ It also has a jumping Goto statement.
 
 
 Tokens:
-[mysql]<br>
+<br>
 '<' :   Move_Left on tape.<br>
 '>' :   Move_Right o tape.<br>
 '+' :   Increment_Value_Of_The_Current_Cell by 1<br>
@@ -21,10 +21,10 @@ Tokens:
 'a' :   Print_The_ASCII_Character<br>
 '.' :   Print_The_#_Value<br>
 'i' :   Take in the ASCII value and assign it to the cell on the tape.<br>
-[/mysql]<br>
+<br>
 A New Cell Initialisation is initialised with 0 ie. ASCII for NULL.
 Since it is a static structure without any loop. Pre Initialised 300*[0] list. 
-[mysql]<br>
+<br>
 ASCII_Codes_Basic: [0->255]<br>
 7: 'Bell'<br>
 8: 'Backspace'<br>
@@ -34,17 +34,17 @@ ASCII_Codes_Basic: [0->255]<br>
 {48-57}: [0-9]<br>
 {65-90}: [A-Z]<br>
 {97-122}: [a-z]<br>
-[/mysql]<br>
+<br>
 For further description of ASCII-Specific decimal values please check:
 "http://www.ascii-code.com/"
 <br>
-#To use it, open your command line in the proper directory and 
-run [shell]"python brocode.py [brocodeplaintext]"[/shell]
-
+To use it, open your command line in the proper directory and 
+run :<br>"python brocode.py [brocodeplaintext]"
+<br>
 eg: Code for Multipliation: ,>,<->->+>+<<!6>>-<<+>>!16<<<!4>>.
 save in: mul.bro 
 
 O/P : "python brocode.py mul.bro"
 
 <br>
-<h4>Some Examples can be found in the Example Folder. Quite Straight Forward.</h4.
+Some Examples can be found in the Example Folder. Quite Straight Forward.
